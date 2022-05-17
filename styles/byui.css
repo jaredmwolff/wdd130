@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&family=Rock+Salt&display=swap");
+
 *{
     border: 2px solid blue;
 }
@@ -23,6 +25,7 @@ a:hover {
 h1{
     color: steelblue;
     text-align: center;
+    font-family:"Rock Salt", "Bradley Hand", cursive;
 }
 
 img{
