@@ -27,7 +27,7 @@ header{
 
 #hero{
     display: grid;
-    grid-template-columns: 1fr 3fr 2fr;
+    grid-template-columns: 1fr 3fr 1fr;
     margin-top: -100px;
 }
 
@@ -105,8 +105,6 @@ footer{
     opacity: .6;
     transform: scale(1,10)
 }
-
-
 
 
 
