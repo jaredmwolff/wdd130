@@ -24,6 +24,7 @@ header{
     display: grid;
     background-color: #1a5184;
     grid-template-columns: 150px auto;
+    align-items: center;
 }
 
 #logo_link{
@@ -47,7 +48,7 @@ header{
     z-index: -1;
     background-color: #051536;
     margin-top: 30px; 
-    margin-bottom: 15px; 
+    margin-bottom: 30px; 
 }
 
 #hero-msg h4{
@@ -72,7 +73,7 @@ header{
 
 .jared1-card{
     width: 53%;
-    margin-top: 15px; 
+    /*margin-top: 15px;*/ 
     margin-bottom: 15px; 
     margin-left: auto;
     margin-right: auto;
@@ -113,14 +114,6 @@ header{
 #background{
     grid-column: 1/11;
     grid-row: 4/9;
-}
-
-.msg{
-    background-color: #6f7364;
-    padding: 35px;
-    grid-column: 6/10;
-    grid-row: 6/7;
-    box-shadow: 5px 5px 10px #6f7364;
 }
 
 footer{
@@ -165,4 +158,77 @@ body{
 
 
 
+
+
+
+
+
+
+
+
+
+/* About Me CSS */
+
+.aboutme-grid {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    /*grid-template-rows: repeat(8, 1fr);*/
+}
+
+.jared2-card {
+    margin-left: 135px;
+    margin-bottom: 35px;
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
+
+.forest2-card {
+    width: 20%;
+    height: auto;
+
+    grid-column: 2/3;
+    grid-row: 2/3;
+}
+
+.msg-3, .msg-4 {
+    text-align: center;
+    color: white;
+    width: 250px;
+    height: 210px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    background-color: #051536;
+    padding: 35px;
+    box-shadow: 5px 5px 10px #6f7364;
+}
+
+.msg-3{
+    margin-top: 75px;
+    margin-left: 150px;
+    grid-column: 2/3;
+    grid-row: 1/2;
+}
+
+.msg-4{
+    margin-left: 175px;
+    margin-top: 175px;
+    grid-column: 1/2;
+    grid-row: 2/3;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Resume Page CSS */
 
