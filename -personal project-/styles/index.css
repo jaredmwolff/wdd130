@@ -13,6 +13,7 @@ a{
     color: white;
     font-size: 1.5em;
     text-align: center;
+    font: Abril Fatface;
 }
 
 a:hover {
@@ -62,6 +63,7 @@ header{
     padding: 10px;
     border: 10px;
     border-radius: 5px;
+    font: Abril Fatface;
 }
 
 #hero-msg{
@@ -69,6 +71,7 @@ header{
     grid-row: 1/2;
     margin-top: 100px;
     text-align: center;
+    font: Abril Fatface;
 }
 
 
@@ -78,8 +81,8 @@ header{
     margin-bottom: 15px; 
     margin-left: auto;
     margin-right: auto;
-    grid-template-columns: 3/5;
-    grid-template-rows: 2/4;
+    grid-template-columns: 3/5px;
+    grid-template-rows: 2/4px;
 }
 
 .msg-1{
@@ -90,10 +93,11 @@ header{
     background-color: #051536;
     padding: 35px;
     box-shadow: 5px 5px 10px #6f7364;
-    grid-template-columns: 3/5;
-    grid-template-rows: 2/4;
+    grid-template-columns: 3/5px;
+    grid-template-rows: 2/4px;
     font-weight: normal;
     font-size: 17px;
+    font: Roboto;
 }
 
 .msg-2{
@@ -106,6 +110,7 @@ header{
     box-shadow: 5px 5px 10px #6f7364;
     font-weight: normal;
     font-size: 17px;
+    font: Roboto;
 }
 
 .forest1-card{
@@ -132,6 +137,7 @@ footer{
 
 footer h3 {
     color: white;
+    font: Abril Fatface;
 }
 
 .card-img{
@@ -147,6 +153,7 @@ footer h3 {
 
 .home-title {
     color: white;
+    font: Abril Fatface;
 }
 
 home-grid{
@@ -211,6 +218,7 @@ body{
     box-shadow: 5px 5px 10px #6f7364;
     font-weight: normal;
     font-size: 17px;
+    font: Roboto;
 }
 
 .msg-3{
@@ -271,6 +279,7 @@ body{
     box-shadow: 5px 5px 10px #6f7364;
     font-weight: normal;
     font-size: 17px;
+    font: Roboto;
 }
 
 .resume-card {
