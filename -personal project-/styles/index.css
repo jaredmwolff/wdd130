@@ -10,7 +10,7 @@ nav{
 
 a{
     margin: 20px;
-    color: black;
+    color: white;
     font-size: 1.5em;
     text-align: center;
 }
@@ -54,6 +54,7 @@ header{
 #hero-msg h4{
     color: white;
     text-align: center;
+    font-weight: normal;
 }
 
 #hero-msg a{
@@ -91,6 +92,8 @@ header{
     box-shadow: 5px 5px 10px #6f7364;
     grid-template-columns: 3/5;
     grid-template-rows: 2/4;
+    font-weight: normal;
+    font-size: 17px;
 }
 
 .msg-2{
@@ -101,6 +104,8 @@ header{
     background-color: #051536;
     padding: 35px;
     box-shadow: 5px 5px 10px #6f7364;
+    font-weight: normal;
+    font-size: 17px;
 }
 
 .forest1-card{
@@ -123,6 +128,10 @@ footer{
     display: flex;
     justify-content: space-around;
     align-items: center;
+}
+
+footer h3 {
+    color: white;
 }
 
 .card-img{
@@ -194,12 +203,14 @@ body{
     text-align: center;
     color: white;
     width: 250px;
-    height: 210px;
+    height: 240px;
     margin-top: 15px;
     margin-bottom: 15px;
     background-color: #051536;
     padding: 35px;
     box-shadow: 5px 5px 10px #6f7364;
+    font-weight: normal;
+    font-size: 17px;
 }
 
 .msg-3{
@@ -254,10 +265,12 @@ body{
     text-align: center;
     color: white;
     width: 250px;
-    height: 180px;
+    height: 210px;
     background-color: #051536;
     padding: 35px;
     box-shadow: 5px 5px 10px #6f7364;
+    font-weight: normal;
+    font-size: 17px;
 }
 
 .resume-card {
@@ -268,12 +281,4 @@ body{
     margin-right: auto;
     grid-column: 1/3;
     grid-row: 2/4;
-
-
-    /*margin-left: auto;
-    margin-right: auto;
-    margin-left: 175px;
-    margin-top: 50px;
-    grid-column: 1/2;
-    grid-row: 5/6;*/
 }
