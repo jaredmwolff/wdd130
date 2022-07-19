@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Roboto:wght@100&display=swap');
+
 .logo { 
     width: 120px; 
     border: black;
@@ -13,6 +15,7 @@ a{
     color: white;
     font-size: 1.5em;
     text-align: center;
+    font-family: "Abril Fatface";
 }
 
 a:hover {
@@ -55,6 +58,7 @@ header{
     color: white;
     text-align: center;
     font-weight: normal;
+    font-family: "Abril Fatface";
 }
 
 #hero-msg a{
@@ -78,8 +82,8 @@ header{
     margin-bottom: 15px; 
     margin-left: auto;
     margin-right: auto;
-    grid-template-columns: 3/5px;
-    grid-template-rows: 2/4px;
+    grid-column: 3/5px;
+    grid-row: 2/4px;
 }
 
 .msg-1{
@@ -90,10 +94,11 @@ header{
     background-color: #051536;
     padding: 35px;
     box-shadow: 5px 5px 10px #6f7364;
-    grid-template-columns: 3/5px;
-    grid-template-rows: 2/4px;
+    grid-column: 3/5px;
+    grid-row: 2/4px;
     font-weight: normal;
     font-size: 17px;
+    font-family: Roboto;
 }
 
 .msg-2{
@@ -106,6 +111,7 @@ header{
     box-shadow: 5px 5px 10px #6f7364;
     font-weight: normal;
     font-size: 17px;
+    font-family: Roboto;
 }
 
 .forest1-card{
@@ -150,9 +156,6 @@ footer h3 {
 }
 
 home-grid{
-    /*display: grid;
-    grid-template-columns: repeat(10, 1fr);*/
-
     display: grid;
     grid-template-columns: repeat(7, 1fr);
     grid-template-rows: repeat(11, 1fr);
@@ -211,6 +214,7 @@ body{
     box-shadow: 5px 5px 10px #6f7364;
     font-weight: normal;
     font-size: 17px;
+    font-family: Roboto;
 }
 
 .msg-3{
@@ -271,6 +275,7 @@ body{
     box-shadow: 5px 5px 10px #6f7364;
     font-weight: normal;
     font-size: 17px;
+    font-family: Roboto;
 }
 
 .resume-card {
